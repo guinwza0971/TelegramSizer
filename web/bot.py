@@ -1,7 +1,7 @@
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 
 # Your bot token
-token = "BOT_TOKEN"
+token = os.environ.get('TOKEN')
 
 # Calculation function     
 def calculate_position(...):
